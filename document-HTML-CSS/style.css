@@ -1,0 +1,348 @@
+
+* {
+    scrollbar-width: thin;
+    
+}
+
+
+body {
+    margin: 0;
+}
+
+
+::selection {
+    color: rgb(62, 101, 67);
+    background: rgba(94, 94, 94, 0.548);
+}
+
+
+/* Header */
+
+
+
+.header {
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    height: 76px;
+    background: linear-gradient(black,96%, rgb(166, 167, 167));
+}
+
+.nav-header {
+    padding-top: 22px;
+    text-align: center;
+}
+
+.nav-header a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.89);
+    padding: 7px 60px;
+    font-size: 17px;
+    font-family: 'Taviraj';
+    font-weight: 100;
+}
+
+.nav-header a:hover {
+    text-decoration: underline;
+    color: #FFF;
+    font-weight: 500;
+    transform: scale(1.2);
+}
+
+
+
+/* Fin Header */
+
+/* Main */
+
+main {
+    position: absolute;
+    top: 70px;
+    height: 2700px;
+    width: 100%;
+    background-color: rgb(19, 19, 19);
+}
+
+.grand-titre {
+    position: relative;
+    text-align: center;
+    font-family: 'Taviraj';
+    font-weight: 900;
+    font-size: 45px;
+    color: #FFF;
+    letter-spacing: 5px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    width: 100%;
+    height: 60px;
+}
+
+
+.intro {
+    position: relative;
+    text-align: center;
+    margin-top: 50px;
+    color: rgb(255, 255, 255);
+    font-family:'Taviraj';
+    letter-spacing: 1px;
+    font-size: 27px;
+    word-spacing: 5px;
+    line-height: 34px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.intro::first-letter {
+    font-size: 32px;
+}
+
+
+.votez-ici {
+    position: relative;
+    text-align: center;
+    font-size: 32px;
+    color: #FFF;
+    font-family:'Taviraj';
+    margin-bottom: 10px;
+}
+
+.regroupement-div {
+    position: relative;
+    z-index: 8;
+}
+
+
+.div-card-1 {
+    position: absolute;
+    top: 50px;
+    left: 15%;
+    height: 400px;
+    width: 290px;
+    background: linear-gradient(rgb(52, 52, 52),40%,black);
+    border-radius: 25px;
+    border: solid;
+    border-width: 1.2px;
+    border-color: rgb(201, 201, 201);
+    transition: 0.2s;
+}
+
+.div-card-1:hover {
+    transform: scale(1.1);
+    transition-duration: 0.28s;
+    border-color: #FFF;
+    border-width: 1.5px;
+}
+
+.div-card-2 {
+    position: absolute;
+    top: 50px;
+    left: 44%;
+    height: 400px;
+    width: 290px;
+    background: linear-gradient(black,75%,rgb(52, 52, 52));
+    border-radius: 25px;
+    border: solid;
+    border-width: 1.2px;
+    border-color: rgb(201, 201, 201);
+    transition: 0.2s;
+}
+
+.div-card-2:hover {
+    transform: scale(1.1);
+    transition-duration: 0.2s;
+    border-color: #FFF;
+    border-width: 1.5px;
+}
+
+.div-card-3 {
+    position: absolute;
+    top: 50px;
+    right: 15%;
+    height: 400px;
+    width: 290px;
+    background: linear-gradient(rgb(52, 52, 52),40%,black);
+    border-radius: 25px;
+    border: solid;
+    border-color: rgb(201, 201, 201);
+    border-width: 1.2px;
+    transition: 0.2s;
+}
+
+.div-card-3:hover {
+    transform: scale(1.1);
+    transition-duration: 0.2s;
+    border-color: #FFF;
+    border-width: 1.5px;
+}
+
+
+.div-card-p {
+    position: relative;
+    top: 45%;
+    color: #FFF;
+    text-align: center;
+    margin: 0;
+    font-size: 25px;
+    font-family: 'Joan';
+}
+
+.p-endessous-des-cards {
+    position: relative;
+    text-align: center;
+    padding: 0 140px 0px 140px;
+    top: 500px;
+    color: white;
+    font-family: 'Taviraj';
+    font-size: 27px;
+}
+
+hr {
+    position: relative;
+    top: 82px;
+}
+
+.hrr {
+    position: relative;
+    top: 550px;
+    width: 1000px;
+    color: #FFF;
+}
+
+.Information-website {
+    position: relative;
+    top: 600px;
+    text-align: center;
+    color: #FFF;
+    font-size: 32px;
+    font-family:'Taviraj';
+}
+
+.explication-website {
+     position: absolute;
+     top: 1280px;
+     line-height: 45px;
+     color: #FFF;
+     font-size: 24px;
+     font-family:'Taviraj';
+     text-align: center;
+     padding-right: 40px;
+     padding-left: 40px;
+}
+
+.explication-website::first-letter {
+    font-size: 34px;
+}
+
+.les-differentes-pages {
+    position: relative;
+    top: 920px;
+    line-height: 45px;
+    color: #FFF;
+    font-size: 32px;
+    font-family:'Taviraj';
+    text-align: center;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+.explication-website-2 {
+    position: absolute;
+    top: 1700px;
+    line-height: 45px;
+    color: #FFF;
+    font-size: 24px;
+    font-family:'Taviraj';
+    text-align: center;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+.explication-website-3 {
+    position: absolute;
+    top: 1900px;
+    line-height: 45px;
+    color: #FFF;
+    font-size: 24px;
+    font-family:'Taviraj';
+    text-align: center;
+    padding-right: 40px;
+    padding-left: 70px;
+}
+
+.explication-website-4 {
+    position: absolute;
+    top: 2100px;
+    line-height: 45px;
+    color: #FFF;
+    font-size: 24px;
+    font-family:'Taviraj';
+    text-align: center;
+    padding-right: 40px;
+    padding-left: 65px;
+}
+
+.explication-website-5 {
+    position: absolute;
+    top: 2300px;
+    line-height: 45px;
+    color: #FFF;
+    font-size: 24px;
+    font-family:'Taviraj';
+    text-align: center;
+    padding-right: 40px;
+    padding-left: 65px;
+}
+
+a {
+    color: rgb(202, 163, 163);
+    text-decoration: none;
+}
+
+footer {
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    height: 80px;
+    background: linear-gradient(1turn,black,97%, rgb(166, 167, 167));
+}
+
+.footer {
+    color: #FFF;
+    text-align: center;
+    padding-top: 24px;
+    font-size: 24px;
+    font-family:'Taviraj';
+    font-style: italic;
+}
+
+.img-footer-1 {
+    opacity: 90%;
+    position: absolute;
+    left: 10px;
+    height: 40px;
+    margin-left: 10px;
+}
+
+.img-footer-1:hover {
+    opacity: 100%;
+}
+
+.img-footer-2 {
+    opacity: 90%;
+    position: absolute;
+    right: 10px;
+    bottom: 5px;
+    height: 59px;
+}
+
+.img-footer-2:hover {
+    opacity: 100%;
+}
+
+
+
+
+
+
+
+
